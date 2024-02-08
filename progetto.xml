@@ -1,0 +1,284 @@
+<?xml-stylesheet type="text/xsl" href="progetto.xsl" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE TEI SYSTEM "tei_all.dtd">
+   <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diari</title>
+            <author>Emanuele Artom</author>
+            <respStmt>
+               <name>Guri Schwarz</name>
+               <resp>publisher</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Archivio CDEC</publisher>
+            <publisher>Istituto piemontese per la storia della Resistenza e della società contemporanea - ISTORETO</publisher>
+            <publisher>Corte d'<w>assise</w> di Torino</publisher>
+         </publicationStmt>
+         <notesStmt>
+            <note>Scannerizzazione digitale del diario di Emanuele Artom. I diari, 
+               pubblicati integralmente da Guri Schwarz nel 2008, sono composti da due parti distinte.
+               La prima riguarda il periodo che va dal 1 gennaio 1940 al 10 settembre 1943, ed è una fonte 
+               di notizie sulla vita culturale torinese di quegli anni e sullo sviluppo della persecuzione 
+               razziale. La seconda parte, qui conservata e descritta, che va dal novembre 1943 al 23 febbraio
+               1944 riguarda invece l'<w>esperienza</w> partigiana di Emanuele Artom. (2) Si conservano nel fascicolo
+               anche i negativi delle copie fotografiche</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>L'<w>origine</w> sono i diari scritti da Emanuale Artom</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc> </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface n="150" ulx="18" uly="12" lrx="724" lry="1004" xml:id="sezionePagina1">
+         <!--surface in questo caso rappreseta l'astrazione bidimensionale che rappresenta solo la Pagina, senza la scrivania/sfondo-->
+         <zone ulx="0" uly="0" lrx="742" lry="1024" xml:id="interaPagina1">
+            <graphic url="150.jpg" width="742px" height="1024"/>
+            <!--graphic è la foto dell'intero file, che contiene sia la magica che lo sfondo/scrivania, quindi questa zone racchiude l'intera grandezza bidimensionale del file, ed è più grande di Surface-->
+         </zone>
+         <zone n="1" ulx="76" uly="54" lrx="664" lry="95" xml:id="riga1pagina1"/>
+         <zone n="2" ulx="79" uly="98" lrx="652" lry="135" xml:id="riga2pagina1"/>
+         <zone n="3" ulx="76" uly="135" lrx="657" lry="167" xml:id="riga3pagina1"/>
+         <zone n="4" ulx="71" uly="159" lrx="663" lry="197" xml:id="riga4pagina1"/>
+         <zone n="5" ulx="74" uly="197" lrx="659" lry="224" xml:id="riga5pagina1"/>
+         <zone n="6" ulx="70" uly="216" lrx="658" lry="253" xml:id="riga6pagina1"/>
+         <zone n="7" ulx="70" uly="247" lrx="652" lry="281" xml:id="riga7pagina1"/>
+         <zone n="8" ulx="65" uly="278" lrx="663" lry="307" xml:id="riga8pagina1"/>
+         <zone n="9" ulx="69" uly="306" lrx="654" lry="331" xml:id="riga9pagina1"/>
+         <zone n="10" ulx="67" uly="333" lrx="656" lry="367" xml:id="riga10pagina1"/>
+         <zone n="11" ulx="71" uly="368" lrx="658" lry="393" xml:id="riga11pagina1"/>
+         <zone n="12" ulx="74" uly="392" lrx="661" lry="420" xml:id="riga12pagina1"/>
+         <zone n="13" ulx="71" uly="420" lrx="671" lry="450" xml:id="riga13pagina1"/>
+      </surface>
+
+
+      <surface n="159" xml:id="sezionePagina2" ulx="16" uly="13" lrx="719" lry="1010" >
+         <zone xml:id="interaPagina2" ulx="0" uly="0" lrx="740" lry="1024">
+            <graphic url="159.jpg" width="740" height="1024"/></zone>
+            <zone n="1" ulx="36" uly="29" lrx="667" lry="58" xml:id="riga1pagina2"/>
+            <zone ulx="38" uly="29" lrx="508" lry="51" xml:id="spazioriga1pagina2"/>
+            <zone ulx="513" uly="29" lrx="635" lry="57" xml:id="datariga1pagina2"/>
+            <zone n="2" ulx="29" uly="46" lrx="684" lry="88"     xml:id="riga2pagina2"/>
+            <zone points = ' 24,112 236,115 241,84 484,87 484,113 708,115 722,390 20,382 ' xml:id="poesia" />
+            <zone n="3" ulx="24" uly="81" lrx="475" lry="114"    xml:id="riga3pagina2" />
+            <zone n="4" ulx="24" uly="112" lrx="701" lry="146"   xml:id="riga4pagina2" />
+            <zone n="5" ulx="23" uly="145" lrx="701" lry="177"   xml:id="riga5pagina2"  />
+            <zone n="6" ulx="22" uly="167" lrx="717" lry="209"   xml:id="riga6pagina2" />
+            <zone n="7" ulx="20" uly="196" lrx="717" lry="244"   xml:id="riga7pagina2" />
+            <zone n="8" ulx="20" uly="231" lrx="704" lry="268"   xml:id="riga8pagina2"  />
+            <zone n="9" ulx="19" uly="263" lrx="707" lry="301"   xml:id="riga9pagina2" />
+            <zone n="10" ulx="18" uly="285" lrx="679" lry="325"  xml:id="riga10pagina2"  />
+            <zone n="11" ulx="17" uly="313" lrx="704" lry="360"  xml:id="riga11pagina2"  />
+            <zone n="12" ulx="16" uly="350" lrx="717" lry="392"  xml:id="riga12pagina2"  />
+            <zone n="13" ulx="17" uly="379" lrx="717" lry="424"  xml:id="riga13pagina2" />
+            <zone n="14" ulx="17" uly="409" lrx="716" lry="448"  xml:id="riga14pagina2"  />
+            <zone n="15" ulx="15" uly="432" lrx="717" lry="475"  xml:id="riga15pagina2" />
+            <zone n="16" ulx="16" uly="457" lrx="710" lry="507"  xml:id="riga16pagina2" />
+            <zone n="17" ulx="22" uly="495" lrx="711" lry="530"  xml:id="riga17pagina2"  />
+            <zone n="18" ulx="26" uly="529" lrx="722" lry="564"  xml:id="riga18pagina2"  />
+            <zone n="19" ulx="24" uly="552" lrx="720" lry="584"  xml:id="riga19pagina2" />
+            <zone n="20" ulx="24" uly="577" lrx="719" lry="611"  xml:id="riga20pagina2" />
+            <zone n="21" ulx="24" uly="605" lrx="707" lry="640"  xml:id="riga21pagina2" />
+            <zone n="22" ulx="23" uly="629" lrx="720" lry="669"  xml:id="riga22pagina2" />
+            <zone n="23" ulx="21" uly="656" lrx="665" lry="696"  xml:id="riga23pagina2" />
+            <zone n="24" ulx="29" uly="689" lrx="706" lry="737"  xml:id="riga24pagina2" />
+            <zone n="25" ulx="33" uly="725" lrx="696" lry="766"  xml:id="riga25pagina2"  />
+            <zone n="26" ulx="28" uly="761" lrx="701" lry="802"  xml:id="riga26pagina2" />
+            <zone n="27" ulx="24" uly="790" lrx="718" lry="839"  xml:id="riga27pagina2" />
+            <zone n="28" ulx="19" uly="830" lrx="684" lry="861"  xml:id="riga28pagina2" />
+            <zone n="29" ulx="22" uly="862" lrx="696" lry="900"  xml:id="riga29pagina2" />
+            <zone n="30" ulx="22" uly="901" lrx="677" lry="936"  xml:id="riga30pagina2" />
+            <zone n="31" ulx="20" uly="934" lrx="690" lry="976"  xml:id="riga31pagina2" />
+      </surface>
+
+      <surface n="173" xml:id="sezionePagina3" ulx="15" uly="11" lrx="791" lry="1009">
+         <zone xml:id="interaPagina3" ulx="0" uly="0" lrx="808" lry="1024">
+            <graphic url="173.jpg" width="808" height="2024"/>
+         </zone>
+         <zone n="1" ulx="31" uly="22" lrx="716" lry="49" xml:id="riga1pagina3" />
+         <zone n="2" ulx="25" uly="47" lrx="742" lry="75" xml:id="riga2pagina3" />
+         <zone n="3" ulx="24" uly="79" lrx="773" lry="118" xml:id="riga3pagina3" />
+         <zone n="4" ulx="23" uly="116" lrx="782" lry="157" xml:id="riga4pagina3" />
+         <zone n="5" ulx="23" uly="139" lrx="781" lry="189" xml:id="riga5pagina3" />
+         <zone n="6" ulx="28" uly="163" lrx="771" lry="218" xml:id="riga6pagina3" />
+         <zone n="7" ulx="23" uly="194" lrx="768" lry="249" xml:id="riga7pagina3" />
+         <zone n="8" ulx="32" uly="226" lrx="778" lry="282" xml:id="riga8pagina3" />
+         <zone n="9" ulx="30" uly="257" lrx="783" lry="310" xml:id="riga9pagina3" />
+         <zone n="10" ulx="20" uly="281" lrx="784" lry="331" xml:id="riga10pagina3" />
+         <zone n="11" ulx="22" uly="305" lrx="782" lry="361" xml:id="riga11pagina3" />
+         <zone n="12" ulx="22" uly="336" lrx="788" lry="387" xml:id="riga12pagina3" />
+         <zone n="13" ulx="23" uly="362" lrx="779" lry="410" xml:id="riga13pagina3" />
+         <zone n="14" ulx="24" uly="383" lrx="770" lry="430" xml:id="riga14pagina3" />
+         <zone n="15" ulx="24" uly="417" lrx="797" lry="458" xml:id="riga15pagina3" />
+         <zone n="16" ulx="25" uly="440" lrx="789" lry="478" xml:id="riga16pagina3" />
+         <zone n="17" ulx="26" uly="456" lrx="773" lry="492" xml:id="riga17pagina3" />
+         <zone n="18" ulx="24" uly="477" lrx="773" lry="510" xml:id="riga18pagina3" />
+         <zone n="19" ulx="25" uly="498" lrx="790" lry="535" xml:id="riga19pagina3" />
+         <zone n="20" ulx="26" uly="516" lrx="773" lry="557" xml:id="riga20pagina3" />
+         <zone n="21" ulx="26" uly="540" lrx="780" lry="576" xml:id="riga21pagina3" />
+         <zone n="22" ulx="26" uly="564" lrx="781" lry="594" xml:id="riga22pagina3" />
+         <zone n="23" ulx="28" uly="583" lrx="783" lry="613" xml:id="riga23pagina3" />
+         <zone n="24" ulx="29" uly="605" lrx="781" lry="635" xml:id="riga24pagina3" />
+         <zone n="25" ulx="28" uly="625" lrx="777" lry="655" xml:id="riga25pagina3" />
+         <zone n="26" ulx="31" uly="649" lrx="780" lry="677" xml:id="riga26pagina3" />
+         <zone n="27" ulx="32" uly="670" lrx="776" lry="696" xml:id="riga27pagina3" />
+         <zone n="28" ulx="29" uly="696" lrx="786" lry="720" xml:id="riga28pagina3" />
+         <zone n="29" ulx="29" uly="712" lrx="783" lry="739" xml:id="riga29pagina3" />
+         <zone n="30" ulx="29" uly="737" lrx="787" lry="765" xml:id="riga30pagina3" />
+         <zone n="31" ulx="27" uly="754" lrx="776" lry="771" xml:id="riga31pagina3" />
+         <zone n="32" ulx="30" uly="776" lrx="768" lry="780" xml:id="riga32pagina3" />
+         <zone n="33" ulx="28" uly="789" lrx="770" lry="805" xml:id="riga33pagina3" />
+         <zone n="34" ulx="27" uly="809" lrx="771" lry="830" xml:id="riga34pagina3" />
+         <zone n="35" ulx="28" uly="833" lrx="757" lry="847" xml:id="riga35pagina3" />
+         <zone n="36" ulx="27" uly="851" lrx="757" lry="861" xml:id="riga36pagina3" />
+         <zone n="37" ulx="26" uly="875" lrx="780" lry="892" xml:id="riga37pagina3" />
+         <zone n="38" ulx="18" uly="897" lrx="766" lry="908" xml:id="riga38pagina3" />
+         <zone n="39" ulx="21" uly="915" lrx="772" lry="933" xml:id="riga39pagina3" />
+         <zone n="40" ulx="20" uly="943" lrx="765" lry="951" xml:id="riga40pagina3" />
+         <zone n="41" ulx="21" uly="959" lrx="773" lry="981" xml:id="riga41pagina3" />
+         
+         
+         
+   </surface>
+         
+
+         
+      
+
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+
+         <div facs="#interaPagina1">
+         <pb n="150" xml:lang="it" facs="#sezionePagina1"/>
+         <p>
+            <lb facs="#riga1pagina1"/>sotto i soldati sordi e grigi, come dice
+            <lb facs="#riga2pagina1"/>Mussolini, io nel mezzo<pc pos="SENT">.</pc> Per fortuna
+            <lb facs="#riga3pagina1"/>vado costituendo un'<w>organizzazione</w>
+            <lb facs="#riga4pagina1"/>politica:<unclear reason="illegible">fam</unclear>, <persName><choice><abbr>G<am>.</am></abbr><expan>Giorgio</expan></choice></persName>, <persName>Ugo</persName>,] (i)Io ho l'<w>orga<pc force="weak">=</pc>
+            <lb facs="#riga5pagina1" break="no"/>nizzazione</w>, che manca agli altri<pc pos="SENT">.</pc>
+            <lb facs="#riga6pagina1"/>Posso mandare Ugo in un campo ad aiu<pc force="weak">=</pc>
+            <lb facs="#riga7pagina1" break="no"/>tarmi: gli altri non possono mandare
+            <lb facs="#riga8pagina1"/>uno a farmi la guerra<pc pos="SENT">.</pc> Se canticchiano
+            <lb facs="#riga9pagina1"/>una canzone in cui dicono che se ne
+            <lb facs="#riga10pagina1"/>fregano del commissario, penso alla
+            <lb facs="#riga11pagina1"/>poesia di <persName>Broferrio</persName> sul <seg xml:lang="pms" cert="medium">Magnific
+            <lb facs="#riga12pagina1"/><choice><sic>Cunt</sic><corr>Cont></corr></choice>Cont d'<persName>Cavour</persName></seg> e mi consolo<pc pos="SENT">.</pc> Ho un
+            <lb facs="#riga13pagina1"/>mese circa davanti<pc pos="SENT">.</pc> Farò quanto posso<pc pos="SENT">.</pc>
+         </p>
+
+         </div>
+
+         <div facs="#interaPagina2">
+         <pb n="159" xml:lang="it" facs="#sezionePagina2"/>
+         <div>
+            <ab>
+                <lb n="1" facs="#riga1pagina2"/><space facs="#spazioriga1pagina2"></space>
+                  <date when="1944-02-11" rend="align end" facs="#datariga1pagina2">
+                       <choice>
+                         <abbr>11.2.44</abbr>
+                         <expan>11 <ex>Febbraio</ex> <ex>19</ex>44</expan>
+                         </choice>
+                   </date>
+            </ab>
+            <lb/>
+            <ab>
+              <lb n="2" facs="#riga2pagina2"/> Ecco, corretta e in redazione forse definitiva
+              <lb n="3" facs="#riga3pagina2"/>la mia lirica:
+            </ab> 
+            <div type="verse" facs="#poesia">
+                 <head>Il vento di Dio<pc cert="medium">.</pc></head><lg>
+                 <lb n="4" facs="#riga4pagina2" /><l n="1">Come <subst><add>T</add><del rend="overstrike">t</del></subst>i esalto, o Signore, e mi umilio</l> <l n="2"><pc unit="verse" pre="false">-</pc> quando in
+                 <lb n="5" facs="#riga5pagina2"/>sogno torbido e lontano </l><l n="3"><pc unit="verse" pre="false">-</pc> vedo Giacobbe, dopo
+                 <lb n="6" facs="#riga6pagina2"/>il lungo esilio</l><l n="4"><pc unit="verse">-</pc>pugnar con Te di notte sul Giordano<pc pos="SENT">.</pc>
+                 <lb n="7" facs="#riga7pagina2"/>Ma un turbine che stringe e non si afferra,</l><l n="5"><pc unit="verse" pre="false">-</pc> ma un
+                 <lb n="8" facs="#riga8pagina2"/>turbine del cielo è il Tuo vigore:</l><l n="6"><pc unit="verse" pre="false">-</pc> scende dall'<w>altro</w> e
+                 <lb n="9" facs="#riga9pagina2"/>lo schiaccia per terra</l><l n="7"><pc unit="verse" pre="false">-</pc> come una foglia,dal vespro
+                 <lb n="10" facs="#riga10pagina2"/>all'<w>aurore</w>,</l><l n="8"><pc unit="verse" pre="false">-</pc> Ché misurarsi con la Tua infinita
+                 <lb n="11" facs="#riga11pagina2"/>potenza è il segno dell'<w>umana</w> sorte: combattere
+                 <lb n="12" facs="#riga12pagina2"/>col vento della morte,</l><l n="9"><pc unit="verse" pre="false">-</pc> combattere col vento della vita</l></lg></div>
+            <div>
+               <p>
+                  <lb n="13" facs="#riga13pagina2"/>Credo che questa sia la mia lirica migliore, o me<lb n="14" facs="#riga14pagina2" break="no"/>glio, l'<w>unica</w> lirica che posso riconoscere come mia;
+                  <lb n="15" facs="#riga15pagina2"/>Ho <del>scritto</del> composto versi migliori, ma frammentari<pc pos="SENT">.</pc>
+                  <lb n="16" facs="#riga16pagina2"/>Ieri mattina ci fu una nuova discussione: si pensò
+                  <lb n="17" facs="#riga17pagina2"/>di costituire un <unclear reason="watermark">tus.riato</unclear> <name>Rob</name>,<name>Sa</name>,io, che poi a<lb n="18" facs="#riga18pagina2" break="no"/>vrebbe
+                   potuto <del>riam</del> concentrarsi <unclear>su un d...rrata</unclear>,
+                  <lb n="19" facs="#riga19pagina2"/>con <name>R</name> che riassumeva il commissariato<pc pos="SENT">.</pc> Passai <unclear reason="illegible">approvò</unclear>
+                  <lb n="20" facs="#riga20pagina2"/><del><unclear reason="illegible">f</unclear></del> subito ai miei riguardi: <unclear reason="illegible">con-paresti </unclear>degradato<pc pos="SENT">.</pc>
+                  <lb n="21" facs="#riga21pagina2"/><choice><sic>Perché</sic><corr>Perché</corr></choice> avrei temuto solo la propaganda ai confini<pc pos="SENT">.</pc>
+                  <lb n="22" facs="#riga22pagina2"/>Compresi che la mia situazione diveniva <unclear>inconteni<lb n="23" facs="#riga23pagina2" break="no"/>bile</unclear>
+                  e pensai di chiedere un trasferimento<pc pos="SENT">.</pc>
+                  <lb n="24" facs="#riga24pagina2"/>A tavola <name>Rob</name> era molto irritato, poi, dopo pranzo,
+                  <lb n="25" facs="#riga25pagina2"/><unclear>si</unclear> concentrò cinque minuti e poi disse:&#60;&#60;Mi avevano
+                  <lb n="26" facs="#riga26pagina2"/>ubriacato, ma ora sono tornato in me<pc pos="SENT">.</pc> Vedo chiaro &#62;&#62;
+                  <lb n="27" facs="#riga27pagina2"/><unclear>E</unclear> non può  assumere nessun comando <unclear>tutto</unclear> tornerà
+                  <lb n="28" facs="#riga28pagina2"/>come prima<pc pos="SENT">.</pc> Ieri il pomeriggio fu perduto. Ero
+                  <lb n="29" facs="#riga29pagina2"/>stanco e addormentato<pc pos="SENT">.</pc> Passai la sera con <name>Giorgio</name> <unclear>ha</unclear>
+                  <lb n="30" facs="#riga30pagina2"/>ad esaminare le carte prese in caserma, chi sono: 
+                  <lb n="31" facs="#riga31pagina2"/>nomi di due: queste carte racchiudono <choice><abbr>2</abbr><expan>due</expan></choice> morti<pc pos="SENT">.</pc>
+            </p>
+            </div>
+         </div>
+         </div>
+         
+         <div facs="#interaPagina3">
+            <pb n="173" xml:lang="it" facs="#sezionePagina3"/>
+            <lb n="1" facs="riga1pagina3"/><space facs="#spazioriga1pagina3"></space><ab><date facs="#datariga1pagina3"when="1944-02-23" rend="align end">
+               <choice>
+                  <abbr>23.2.44</abbr>
+                  <expan>23 <ex>Febbraio</ex> <ex>19</ex>44</expan>
+               </choice>
+            </date></ab>
+            <p>
+            <lb n="2"/>Parecchi altri giorni trascorsi senza scrivere il diario<choice><sic>:</sic><corr><pc pos="SENT">.</pc></corr></choice><del>Prima uno di</del> Tre
+            <lb n="3"/>giorni fa, domenica, mentre i ragazzi erano andati a ballare, passai la sera
+            <lb n="4"/>accanto al camino con <name>G</name>. È strano come ci assorbe questa vita partigiana
+            <lb n="5"/>anche nel pensiero<pc pos="SENT">.</pc> Il discorso cadeva sempre nella nostra guerra e si dovette
+            <lb n="6"/>sforzarci per spaziare in orizzonti più lontani, con confidenza piena, come ho
+            <lb n="7"/>soltanto con G<pc pos="SENT">.</pc> <ab>La notte prima avevamo avuto un freddo pauroso<pc pos="SENT">.</pc> Rannicchiato,
+            <lb n="8"/>non osavo muovermi per non toccare altre zone delle gelide lenzuola<pc pos="SENT">.</pc><del></del> Nella
+            <lb n="9"/>camera l'<w>acqua</w> era ghiacciata<pc pos="SENT">.</pc> Perciò ci facemmo aggiungere delle coperte, mettere
+            <lb n="10"/>la bottiglia dell'<w>acqua</w> calda, e si bevve dal marsala<pc pos="SENT">.</pc></ab>Si parlò della civiltà moderna<pc pos="SENT">.</pc> L'<w><choice><sic>unica</sic><corr>unico</corr></choice></w>
+            <lb n="11"/>elemento spirituale che si è <del rend="overstrike">veramente</del> davvero sviluppato originalmente in questi
+            <lb n="12"/>ultimi anni <choice><sic>e'</sic><corr>è</corr></choice> il cinematografo<pc pos="SENT">.</pc> Siamo figli della nostra generazione: riusciremo a
+            <lb n="13"/>rinnovarci senza invecchiare? <name>G.</name> dice di no, ma <name>G</name> è molto pessimista<pc pos="SENT">.</pc> Di me ha detto che
+            <lb n="14"/>gli pare che abbia molta disposizione per la politica<pc pos="SENT">.</pc> Il giorno dopo una gran
+            <lb n="15"/>camminata con <name>Geo</name>, fino quasi al <rs type="place">Bagnaut</rs><pc pos="SENT">.</pc> Geo è molto simpatico<pc pos="SENT">.</pc> Infantile
+            <lb n="16"/>moralmente, molto maturo <del> </del> intellettualmente<pc pos="SENT">.</pc> Affronta in pieno tutti i problemi<pc pos="SENT">.</pc>
+            <lb n="17"/>Sensibilissimo verso la famiglia e specialmente verso suo padre, non è certo un buon
+            <lb n="18"/>figlio e si rode di rimorsi di rimorsi<pc pos="SENT">.</pc> Sente l'<w>abisso</w> che separa padri e figli e non sa ancora
+            <lb n="19"/>che è incolmabile<pc pos="SENT">.</pc> L'<w>abisso</w> aperto dalla parzialità dei giudizi dei genitori, e dal pudore
+            <lb n="20"/>che <subst><del type="overstrike">lascia</del><add place="above">impedisce ai</add> </subst> figli palesare le proprie trasformazioni, abisso che si spalanca ora
+            <lb n="21"/>più che mai grande, ora che da una generazione e l'<w>altra</w> sembrano corsi dei
+            <lb n="22"/>secoli<pc pos="SENT">.</pc> Colti dalla notte a un'<w>ora</w>  dal <rs type="place">Bagnaut</rs>, <del><gap atLeast="4" atMost="8" unit="chars" reason="illegible"/></del> ci rifugiamo in una
+            <lb n="23"/>stalla decendo:  <said direct="true">Accoglieteci, siamo partigiani</said>, ma <del><gap atLeast="2" atMost="7" unit="chars" reason="illegible"/></del> ci fanno entrare
+            <lb n="24"/>con somma diffidenza <choice><sic>perchè</sic><corr>perché</corr></choice> ci temono fascisti, dato che i partigiani sono
+            <lb n="25"/>sempre armati<pc pos="SENT">.</pc> Poi riconoscendoci, ci offrono da cena e si fa amicizia<pc pos="SENT">.</pc> Faccio
+            <lb n="26"/>un bel discorsetto di cultura politica, con successo<pc pos="SENT">.</pc> I <choice><abbr>4 o 5</abbr> <expan>quattro o cinque</expan></choice> ascoltatori sono operai e quindi
+            <lb n="27"/>mi esprimo in senso proletario e di estrema sinistra<pc pos="SENT">.</pc> Lavorano in certe fabbriche dove
+            <lb n="28"/>nessuno, nemmeno i <choice><abbr>com</abbr><expan>comunisti</expan></choice> per ora si occupa di politica<pc pos="SENT">.</pc><del><gap atLeast="6" atMost="13" unit="chars" reason="illegible"/></del> Una notte cattiva:
+            <lb n="29"/><name>Geo</name> ed io ci svegliamo col mal di gola, temiamo di incontrare  a <rs type="place">Luserna</rs> i fascisti,
+            <lb n="30"/><del rend="overstrike"> ci p</del> passiamo <del rend="overstrike">un</del> ore nere, come avviene quando di notte preoccupazioni <del><gap atLeast="3" atMost="7" unit="chars" reason="illegible"/></del> 
+            <lb n="31" n="32"/>mortali e dolori fisici aumentano nel buio<pc pos="SENT">.</pc> La mattina dopo riprendiamo a camminare
+            <lb n="32"/>con l'<w>influenza</w> addosso<pc pos="SENT">.</pc> Dopo due mesi di bel tempo quasi consecutivo camminiamo per
+            <lb n="33"/>tutto il giorno sotto la neve<pc pos="SENT">.</pc> Alle <choice><abbr>4</abbr><expan>quattro</expan></choice> e mezza si giunge ai <rs type="place">Rumè</rs> bagnati, tossenti,
+            <lb n="34"/>stanchissimi ed ora mi sto godendo, per la prima volta dopo un mese e mezzo,
+            <lb n="35"/>un giorno di riposo<pc pos="SENT">.</pc> Si è pranzato molto bene<pc pos="SENT">.</pc> La signora <name>Levi</name> è simpatica,
+            <lb n="36"/>Il signor Levi un uomo disfatto, stanco, brontolone, moralmente vecchio, ma non
+            <lb n="37"/>spiacevole<pc pos="SENT">.</pc> Pare che dalla vita abbia poche soddisfazioni: se non mi inganno,
+            <lb n="38"/>son contenti che <name>Geo</name> sta con me e lo indirizzi<pc pos="SENT">.</pc> La signora <gap atLeast="3" atMost="6" reason="illegible"/> gelosa che
+            <lb n="39"/><name>Geo</name> faccia una vita migliore di <name>Ugo</name> e non nasconde la sua gelosia, ma <name>Ugo</name> è
+            <lb n="40"/>noioso e <name>Geo</name> divertente <del>Per <gap  atLeast="1" atMost="4" reason="illegible"/></del> a gangster;<note>il termine ganster è nato a inizio 1900 e verso il 1944 vede un picco d'<w>uso</w></note> per passare mesi assieme non
+            <lb n="41"/>c'<w>è</w> da dubitare nella scelta<pc pos="SENT">.</pc> D'<w>altra</w> parte a <name>Ugo</name> sto procurando una bella
+            </p>
+            
+            
+         </div>
+      </body>
+   </text>
+</TEI>
