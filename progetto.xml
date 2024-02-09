@@ -1,9 +1,9 @@
-<?xml-stylesheet type="text/xsl" href="progetto.xsl" ?>
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="progetto.xsl" ?>-->
    <!DOCTYPE TEI SYSTEM "tei_all.dtd">
    <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc>
+      <fileDesc>   
          <titleStmt>
             <title>Diari</title>
             <author>Emanuele Artom</author>
@@ -138,18 +138,9 @@
          <zone n="38" ulx="18" uly="897" lrx="766" lry="908" xml:id="riga38pagina3" />
          <zone n="39" ulx="21" uly="915" lrx="772" lry="933" xml:id="riga39pagina3" />
          <zone n="40" ulx="20" uly="943" lrx="765" lry="951" xml:id="riga40pagina3" />
-         <zone n="41" ulx="21" uly="959" lrx="773" lry="981" xml:id="riga41pagina3" />
-         
-         
-         
+         <zone n="41" ulx="21" uly="959" lrx="773" lry="981" xml:id="riga41pagina3" />   
    </surface>
-         
-
-         
-      
-
-      </surface>
-   </facsimile>
+ </facsimile>
    <text>
       <body>
 
@@ -228,13 +219,14 @@
          
          <div facs="#interaPagina3">
             <pb n="173" xml:lang="it" facs="#sezionePagina3"/>
-            <lb n="1" facs="riga1pagina3"/><space facs="#spazioriga1pagina3"></space><ab><date facs="#datariga1pagina3"when="1944-02-23" rend="align end">
+            <ab><lb n="1" facs="riga1pagina3"/><space facs="#spazioriga1pagina3"></space><date facs="#datariga1pagina3" when="1944-02-23" rend="align end">
                <choice>
                   <abbr>23.2.44</abbr>
                   <expan>23 <ex>Febbraio</ex> <ex>19</ex>44</expan>
                </choice>
             </date></ab>
-            <p>
+            <div>
+               <ab>
             <lb n="2"/>Parecchi altri giorni trascorsi senza scrivere il diario<choice><sic>:</sic><corr><pc pos="SENT">.</pc></corr></choice><del>Prima uno di</del> Tre
             <lb n="3"/>giorni fa, domenica, mentre i ragazzi erano andati a ballare, passai la sera
             <lb n="4"/>accanto al camino con <name>G</name>. È strano come ci assorbe questa vita partigiana
@@ -264,7 +256,7 @@
             <lb n="28"/>nessuno, nemmeno i <choice><abbr>com</abbr><expan>comunisti</expan></choice> per ora si occupa di politica<pc pos="SENT">.</pc><del><gap atLeast="6" atMost="13" unit="chars" reason="illegible"/></del> Una notte cattiva:
             <lb n="29"/><name>Geo</name> ed io ci svegliamo col mal di gola, temiamo di incontrare  a <rs type="place">Luserna</rs> i fascisti,
             <lb n="30"/><del rend="overstrike"> ci p</del> passiamo <del rend="overstrike">un</del> ore nere, come avviene quando di notte preoccupazioni <del><gap atLeast="3" atMost="7" unit="chars" reason="illegible"/></del> 
-            <lb n="31" n="32"/>mortali e dolori fisici aumentano nel buio<pc pos="SENT">.</pc> La mattina dopo riprendiamo a camminare
+            <lb n="31"/>mortali e dolori fisici aumentano nel buio<pc pos="SENT">.</pc> La mattina dopo riprendiamo a camminare
             <lb n="32"/>con l'<w>influenza</w> addosso<pc pos="SENT">.</pc> Dopo due mesi di bel tempo quasi consecutivo camminiamo per
             <lb n="33"/>tutto il giorno sotto la neve<pc pos="SENT">.</pc> Alle <choice><abbr>4</abbr><expan>quattro</expan></choice> e mezza si giunge ai <rs type="place">Rumè</rs> bagnati, tossenti,
             <lb n="34"/>stanchissimi ed ora mi sto godendo, per la prima volta dopo un mese e mezzo,
@@ -275,7 +267,8 @@
             <lb n="39"/><name>Geo</name> faccia una vita migliore di <name>Ugo</name> e non nasconde la sua gelosia, ma <name>Ugo</name> è
             <lb n="40"/>noioso e <name>Geo</name> divertente <del>Per <gap  atLeast="1" atMost="4" reason="illegible"/></del> a gangster;<note>il termine ganster è nato a inizio 1900 e verso il 1944 vede un picco d'<w>uso</w></note> per passare mesi assieme non
             <lb n="41"/>c'<w>è</w> da dubitare nella scelta<pc pos="SENT">.</pc> D'<w>altra</w> parte a <name>Ugo</name> sto procurando una bella
-            </p>
+            </ab>
+         </div>
             
             
          </div>
