@@ -10,3 +10,5 @@ validazione con xmllint:
 
 xmllint --valid progetto.xml
 
+per la creazione dell'html è stato usato saxonica 12.3, utilizzando il comando:
+java -jar '/home/user/Scrivania/Tools Codifica/SaxonHE12-3J/saxon-he-12.3.jar'  -s:progetto.xml -xsl:progetto.xsl -o:nontext.html
