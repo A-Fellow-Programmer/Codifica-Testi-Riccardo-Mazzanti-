@@ -1,0 +1,99 @@
+.container {
+    display:flex;
+    
+    border-style: solid;
+    border-color: black;
+}
+.slider-container
+{
+  height:624px;
+        
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    overflow: scroll;
+    resize:both;
+    max-height: 1024px;
+   max-width: 800px;
+
+}
+
+.image-container
+{
+    border-color: aqua;
+    width: 2400px;
+    background-color: red;
+    clear: both;
+    height: 1024px;
+    left: -55px;
+
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+}
+#slider-image-1:target ~ .image-container
+{
+   left: -55px;
+}
+#slider-image-2:target ~ .image-container
+{
+   left: -764px;
+}
+#slider-image-3:target ~ .image-container
+{
+   left: -1530px;
+}
+.button-container
+{
+	position: relative;
+	top: -20px;
+}
+
+.button-container2
+{
+	position: relative;
+	top: -1024px;
+}
+.slider-change
+{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 10px;
+	background-color: brown;
+}
+.wrap {
+    width: min-content;
+    position: relative;
+  
+  }
+  .x {
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    line-height: 0;
+    color: red;
+    font-size: 50px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+  }
+  #pag1{
+    display:block;
+  }
+  #pag2{
+    display:none;
+  }
+  #pag3{
+    display:none;
+  }
+  span{
+    margin-right:5px;
+  }
